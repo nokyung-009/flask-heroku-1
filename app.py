@@ -35,7 +35,7 @@ def Home(name):
 
 @app.route('/name')
 def name():
-    return "<font color=Green>จุฑารัตน์</font> <font color=pink>อยู่เจียม</font> <br> <font color=blue>เลขที่9 ม.4/10</font> "
+    return "<font color=Green>จุฑารัตน์ อยู่เจียม</font> <br> เลขที่9 ม.4/10"
 
 if _name_ == "_main_":
     app.run(debug=False)
